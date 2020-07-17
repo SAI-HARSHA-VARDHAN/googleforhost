@@ -5,10 +5,22 @@
             <meta name="viewport" content="width=device-width, initial-scale=1.0">
             <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">   
             <link rel="stylesheet" href="https://cardscrapshut.s3.ap-south-1.amazonaws.com/index.css">
+            <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+            <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
             <title>scrapshut card</title>
         </head>
-        <body onload="sign_in()">
+        <body onload="sign_in()" style="background-color: #F1F2F3;">
             <div class="popup" >
+            </div>
+            <div class="alert alert-warning alert-dismissible fade show" role="alert">
+                <strong>Note: </strong> Kindly enable popup or reopen the window if you face problem in signing in.
+                <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="container">
+                <p style="text-align: center;"><img src="public/img/scrap_withoutbg.png" height="100" width="150"></p>
+                <p style="text-align: center;"><img src="public/img/loading1.gif" height="100" width="100"></p>
             </div>
             <script src="https://apis.google.com/js/api.js"></script>
             <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
